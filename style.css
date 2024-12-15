@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+header{
+    padding: 45px 0;
+    border-bottom: 2px solid #DEDBDB;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hr{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.hr i{
+    color: #F0400F;
+    font-size: 25px;
+}
+main{
+    background: #FAFAFA;
+    height: 100vh;
+    padding: 46px;
+}
+.box{
+    width: 650px;
+    background-color: white;
+    border: 1px solid #DEDBDB;
+    padding: 66px;
+    margin: 0 auto;
+    border-radius: 50px;
+}
+.bt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bt h2{
+    font-size: 24px;
+    color: #F0400F; 
+}
+h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58.09px;
+    text-align: center;
+    color: #0E0D5D;
+    margin-top: 40px;
+}
+.pr{
+    width: 533px;
+    height: 70px;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 8px 11px;
+    gap: 42px;
+    margin-top: 20px;
+}
+.pr p{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 33.89px;
+    text-align: center;
+    padding: 10px 40px;
+    background-color: white;
+    border-radius: 20px;
+    width: 255px;
+}
+.pr span{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 33.89px;
+    color: #757575;    
+}
+input{
+    width: 533px;
+    height: 70px;
+    background-color: #FAFAFA;
+    border: 1px solid #75757530;
+    border-radius: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.05px;
+    color: #757575B2;
+    padding: 20px 51px;
+    margin-top: 25px;
+    outline: none;
+}
+#eye{
+    font-size: 24px;
+    margin-left: -60px;
+}
+.qr{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.05px; 
+    text-align: center;
+    margin-top: 18px;
+    color: #000000A3;  
+}
+.btn{
+    padding: 16px 23px;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    background: #F69E86;
+    border-radius: 20px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 320px;
+}
